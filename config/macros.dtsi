@@ -1,6 +1,6 @@
-macro_tap_dan_mod_tap: macro_tap_dan_mod_tap{
-compatible = "zmk,behavior-macro";
-label = "macro_tap_dan_mod_tap";
+md_td: tap_dance_mod_tap{
+compatible = "zmk,behavior-hold-tap";
+label = "tap_dance_mod_tap";
 #binding-cells = <0>;
 bindings = <&mo 1>, <&mo 2>;
 };
